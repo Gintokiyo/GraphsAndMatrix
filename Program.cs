@@ -12,6 +12,7 @@ namespace GraphsAndMatrix
 
             firstMatrix.AddArc();
             firstMatrix.ShowMatrix();
+            firstMatrix.DeleteArc();
 
             secondMatrix.AddArc(1, 2);
             secondMatrix.AddArc(2, 4);
